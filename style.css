@@ -1,0 +1,376 @@
+  @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200&family=Signika+Negative:wght@300&display=swap');
+
+/*zerando qualquer margem do site*/
+*{
+margin: 0;
+padding: 0;
+
+}
+
+/* criando paleta padrão do site*/
+:root{
+
+--branco: #fff;
+--cinzabg: #3f3f3f;
+--cinzabg2: #464646;
+--cinzabg3: #707070;
+--cinzabg4: #cacaca;
+--preto: #000;
+
+}
+
+/*tratamento do título*/
+h1{
+
+font-family: Arial, Helvetica, sans-serif;
+letter-spacing: 1px;
+
+}
+
+/*tratamento do "Sport Club Corinthians*/
+header{
+
+display: flex;
+justify-content: space-around;
+align-items: center;
+gap: 1rem;
+flex-wrap: wrap;
+padding: .9rem;
+background-color: var(--cinzabg2);
+min-height: 50px;
+width: 100%;
+font-family: 'Signika Negative', sans-serif;
+letter-spacing: 0.1px;
+
+}
+
+/*tratamento padrão da parte do body*/
+body{
+
+background-color: var(--branco);
+height: 100vh;
+font-family: 'Signika Negative', sans-serif;
+}
+
+/*tratamento da área da logo*/
+.img-header{
+
+    height: 100%;
+
+}
+
+/*tratamento da imagem da logo*/
+.logo{
+
+max-width: 60px ;
+height: 100%;
+
+}
+
+/*parte do topo de direcionamento no site*/
+nav{
+
+display: flex;
+gap: 5rem;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+
+}
+
+/*tratamento dos itens de direcionamento*/
+.link-nav{
+
+text-decoration: none;
+color: var(--branco);
+
+
+}
+
+/*tratamento dos itens de direcionamento*/
+.link-nav:hover{
+
+color: var(--preto);
+transition: .2s;
+font-size: large;
+
+}
+
+/*tratamento da área dos botões do canto superior direito*/
+.btn-top-div{
+
+display: flex;
+gap: 2rem;
+
+
+}
+
+/*tratamento dos botões*/
+button{
+
+padding: .4rem;
+font-size: .9rem;
+border-radius: 7px;
+cursor: pointer;
+transition: .4s;
+    
+}
+
+/* design do botão*/
+.btn-top{
+
+background-color: transparent;
+border: 1px var(--branco) solid;
+color: var(--branco);
+
+}
+
+/* design do botão*/
+.btn-top:hover{
+
+background-color: #000;
+border: transparent;
+
+}
+
+/*tratamento geral da área do conteúdo principal*/
+main{
+
+display: flex;
+flex-direction: column;
+gap: 2rem;
+
+}
+
+/*tratamento geral de todas as sections*/
+section{
+
+padding: 4rem;
+
+}
+
+/*tratamento da section 01*/
+.section-one{
+
+display: flex;
+justify-content: space-evenly;
+gap: 2rem;
+flex-wrap: wrap;
+align-items: center;
+
+}
+
+/*tratamento do texto da section 01*/
+.section-one p{
+
+color: var(--preto);
+font-size: 20px;
+flex-wrap: wrap;
+
+}
+
+/*tratamento da área do texto na section 01*/
+.section-one > div{
+
+display: flex;
+flex-direction: column;
+gap: 1rem;
+min-width: 300px;
+cursor: default;
+flex-wrap: wrap;
+
+}
+
+/* tratamento da referência do site oficial do clube*/
+.siteoficial{
+
+text-decoration: none;
+color: var(--preto);
+transition: .3s;
+
+}
+
+/* tratamento da referência do site oficial do clube*/
+.siteoficial:hover{
+
+color: var(--cinzabg3);
+text-decoration: underline;
+
+}
+
+/*arrumando o "Sport Club Corinthians Paulista"*/
+h1{
+
+letter-spacing: 7px;
+font-size: 50px;
+color: var(--preto);
+
+}
+
+/*tratamento da área onde a imagem principal ocupa*/
+.imagem-principal{
+
+max-width: 500px;
+padding: 1rem;
+
+}
+
+/*tratamento da imagem principal*/
+.img-prin{
+
+width: 100%;
+border-radius: 80% ;
+
+}
+
+/*tratamento da section 02*/
+.section-two{
+
+background-color: var(--cinzabg4);
+display: flex;
+flex-direction: column;
+gap: 3rem;
+align-items: center;
+justify-content: center;
+cursor: default;
+min-width: 300px;
+
+}
+
+/*tratamento do texto da section 02*/
+.texthis{
+
+color: var(--preto);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+gap: 2rem;
+cursor: default;
+text-align: justify;
+max-width: 1000px;
+
+}
+
+/*tratamento da section 03*/
+.section-three{
+
+display: flex;
+flex-direction: column;
+gap: 4rem;
+align-items: center;
+justify-content: center;
+cursor: default;
+
+}
+
+/*tratamento da área dos itens da section 03*/
+
+.section-three > div{
+
+display: flex;
+gap: 4rem;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+
+}
+
+/*tratamento da imagem da torcida*/
+.img-torcida{
+
+width: 400px;
+border-radius: 9px;
+
+}
+
+/*tratamento do texto da section 03*/
+.section-three > div p{
+
+max-width: 600px;
+text-align: justify;
+
+}
+
+/*tratamento da section 04*/
+.section-four{
+
+    background-color: var(--cinzabg4);
+    display: flex;
+    flex-direction:column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/*tratamento dos "href" referente aos títulos*/
+.section-four > div a{
+
+text-decoration: none;
+color: var(--cinzabg3);
+padding: 2rem;
+transition: .2s;
+flex-wrap:wrap;
+
+
+}
+
+/*tratamento dos "href" referente aos títulos*/
+.section-four > div a:hover{
+
+color: var(--preto);
+font-size: larger; 
+
+}
+
+/*tratamento do rodapé*/
+footer{
+
+padding: 4rem;
+display: flex;
+flex-direction: column;
+gap: 2rem;
+justify-content: center;
+align-items: center;
+
+}
+
+/*tratamento da área dos itens do rodapé*/
+footer > div{
+
+display: flex;
+justify-content: center;
+gap: 2rem;
+flex-wrap: wrap;
+
+}
+
+/*tratamento da barra de rolagem na lateral da tela*/
+::-webkit-scrollbar{
+
+width: 10px;
+
+}
+
+/*tratamento da barra de rolagem na lateral da tela*/
+::-webkit-scrollbar-track{
+
+background: var(--branco);
+
+}
+
+/*tratamento da barra de rolagem na lateral da tela*/
+::-webkit-scrollbar-thumb{
+
+background: var(--cinzabg3);
+
+}
+
+/*tratamento da barra de rolagem na lateral da tela*/
+::-webkit-scrollbar-thumb:hover{
+
+background: var(--preto);
+
+}
